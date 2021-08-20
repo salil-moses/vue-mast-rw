@@ -1,0 +1,28 @@
+This is a Vue 3 project with - router/vuex installed. router has history mode
+
+From cmd prompt > vue ui   (This is to create proj from ui)
+
+Add a prettierrc.js file (prettier settings)
+
+Also in eslintrc.js, add the following rule
+"prettier/prettier": ["error", { endOfLine: "off" }],
+
+
+Delete the HelloWorld.vue from component
+Add the EventCard.vue component
+
+In Home view, register this component
+
+
+Install axios - npm install axios
+
+my mock api is created at 
+https://611f86809771bf001785c9c9.mockapi.io/api/events
+Project Name : Vue3_VM_Intro
+
+
+To make sure, new instance of Axios is not created for every API Call, we create the
+EventService.js in the services folder
+
+
+Add the EventDetails.vue in the View Folder
